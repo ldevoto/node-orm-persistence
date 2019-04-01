@@ -1,0 +1,22 @@
+{
+  "name": "recetas-electronicas",
+  "version": "1.0.0",
+  "description": "Se va a probar la implementacion de un backend en node para el proyecto final utilizando un ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "backend",
+    "sequelize",
+    "node",
+    "recetas",
+    "electronicas"
+  ],
+  "author": "Leandro Devoto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "sequelize": "^5.2.8"
+  }
+}
