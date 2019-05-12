@@ -17,8 +17,8 @@ const sequelize = new Sequelize('pruebaRecetasElectronicas', 'root', 'AlgoQueNoM
 const {Patient} = require('./models/patient-model')(sequelize)
 const {PatientSession} = require('./models/patient-session-model')(sequelize)
 
-// const sequelizeUpAndRunning = sequelize.sync({force: true})
-const sequelizeUpAndRunning = sequelize.sync()
+const sequelizeUpAndRunning = sequelize.sync({force: true})
+//const sequelizeUpAndRunning = sequelize.sync()
 
 sequelize.authenticate()
 .then(() => {
